@@ -6,8 +6,7 @@
 
 void DieWithError(char *errorMessage);
 
-int CreateTCPServerSocket(unsigned short port)
-{
+int CreateTCPServerSocket(unsigned short port) {
   int sock;
   struct sockaddr_in echoServAddr;
 
